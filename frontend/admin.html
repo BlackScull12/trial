@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Admin Dashboard</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<h1>Admin Dashboard</h1>
+
+<h3>Upload New Item</h3>
+<input type="text" id="name" placeholder="Name">
+<input type="text" id="description" placeholder="Description">
+<input type="number" id="price" placeholder="Price USD">
+<input type="text" id="image" placeholder="Image URL">
+<button onclick="addItem()">Add Item</button>
+
+<h3>Manage Items</h3>
+<div id="itemsList"></div>
+
+<h3>Set Drop Date</h3>
+<button onclick="setDropDate()">Set Drop Date</button>
+
+<script src="js/admin.js"></script>
+</body>
+</html>
