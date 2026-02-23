@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   background: url('forest-dark.jpg') no-repeat center center fixed;
   background-size: cover;
   color: white;
@@ -21,4 +21,29 @@ body {
   0% {transform: translate(0,0);}
   50% {transform: translate(100px, 200px);}
   100% {transform: translate(0,0);}
+}
+
+button {
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 3px 6px;
+  border-radius: 5px;
+  border: none;
+}
+
+#adminBubble {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
